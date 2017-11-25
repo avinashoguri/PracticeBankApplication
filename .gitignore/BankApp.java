@@ -54,8 +54,10 @@ public class BankApp {
             break;    
             case 6:
                     break;
-                default:
-                    exit;
+	case 7:
+		break;
+                
+            default :System.out.println("plz enter correct choice");
             }
         } while(choice!=7);
     }
