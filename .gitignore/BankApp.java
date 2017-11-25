@@ -52,7 +52,10 @@ public class BankApp {
             result = customerManager.deposit(id, amount);
             System.out.println(result);
             break;    
-            case 6 : 
+            case 6:
+                    break;
+                default:
+                    exit;
             }
         } while(choice!=7);
     }
